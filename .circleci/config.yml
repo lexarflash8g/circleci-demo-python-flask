@@ -10,6 +10,8 @@ workflows:
             branches:
               only: master
 
+orbs:
+  heroku: circleci/heroku@1.2.5
 version: 2
 jobs:
   build:
